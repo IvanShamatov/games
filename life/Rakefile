@@ -1,0 +1,7 @@
+require "bundler"
+Bundler.require
+
+require_relative "lib/main.rb"
+task :default do
+  Game.new.show
+end
